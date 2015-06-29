@@ -119,13 +119,22 @@ a {
   background-color: #484848;
 }
 
-.flex-box {
+.flex-box,
+#skills {
   display: -webkit-flex;
   display: flex;
+  padding: 10px;
+}
+
+.flex-box {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 10px;
+}
+
+#skills {
+  flex-direction: column;
 }
 
 .center-content {
@@ -146,8 +155,13 @@ ul {
   display: none;
 }
 
+.online-classes-title {
+  padding: 15px 0 0 0;
+}
+
 img {
   padding: 10px;
+  max-width: 100%;
 }
 
 /* Bar chart stuff */
